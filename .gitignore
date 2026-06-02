@@ -1,0 +1,65 @@
+# 敏感文件
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# APK 和二进制文件
+*.apk
+*.exe
+*.dmg
+*.zip
+*.tar.gz
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# SkillHub 锁文件
+.skills_store_lock.json
+
+# 个人二维码（如果不想进 Git）
+wechat_article_skills/qrcodes/
+
+# Publisher 配置（含 API 密钥）
+publisher_config.json
+
+# 敏感配置文件（绝对不能提交）
+.env
+.env.*
+*.env
+config.json
+config.yaml
+*.key
+*.pem
+*.p12
+*.pfx
+
+# API Key 相关
+*api_key*
+*API_KEY*
+*appsecret*
+*APPSECRET*
+
+# 微信配置
+wechat-publisher/config.json
+publisher_config.json
+
+# F2 配置（包含 Cookie）
+f2/
+.f2/
+
+# 个人敏感信息
+*.secret
+*.credentials
